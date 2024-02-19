@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  autorization_service:
+    image: 'myapp:1.0'
+    build: ./
+    ports:
+      - '8080:8080'
